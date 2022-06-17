@@ -671,6 +671,46 @@
         "signature": "5426e62886b7be7806312d31a00e8f7dccd6fe63ba9bbefe99ee2eab29cc48a3",
         "affectsGlobalScope": false
       },
+      "../../node_modules/@types/connect/index.d.ts": {
+        "version": "6d829824ead8999f87b6df21200df3c6150391b894b4e80662caa462bd48d073",
+        "signature": "6d829824ead8999f87b6df21200df3c6150391b894b4e80662caa462bd48d073",
+        "affectsGlobalScope": false
+      },
+      "../../node_modules/@types/body-parser/index.d.ts": {
+        "version": "afc559c1b93df37c25aef6b3dfa2d64325b0e112e887ee18bf7e6f4ec383fc90",
+        "signature": "afc559c1b93df37c25aef6b3dfa2d64325b0e112e887ee18bf7e6f4ec383fc90",
+        "affectsGlobalScope": false
+      },
+      "../../node_modules/@types/range-parser/index.d.ts": {
+        "version": "16d51f964ec125ad2024cf03f0af444b3bc3ec3614d9345cc54d09bab45c9a4c",
+        "signature": "16d51f964ec125ad2024cf03f0af444b3bc3ec3614d9345cc54d09bab45c9a4c",
+        "affectsGlobalScope": false
+      },
+      "../../node_modules/@types/qs/index.d.ts": {
+        "version": "ba601641fac98c229ccd4a303f747de376d761babb33229bb7153bed9356c9cc",
+        "signature": "ba601641fac98c229ccd4a303f747de376d761babb33229bb7153bed9356c9cc",
+        "affectsGlobalScope": false
+      },
+      "../../node_modules/@types/express-serve-static-core/index.d.ts": {
+        "version": "101eb8b4e972b9326f39591e2e40e967e3331e8d960f81248daeb266ea1affec",
+        "signature": "101eb8b4e972b9326f39591e2e40e967e3331e8d960f81248daeb266ea1affec",
+        "affectsGlobalScope": true
+      },
+      "../../node_modules/@types/mime/index.d.ts": {
+        "version": "84e3bbd6f80983d468260fdbfeeb431cc81f7ea98d284d836e4d168e36875e86",
+        "signature": "84e3bbd6f80983d468260fdbfeeb431cc81f7ea98d284d836e4d168e36875e86",
+        "affectsGlobalScope": false
+      },
+      "../../node_modules/@types/serve-static/index.d.ts": {
+        "version": "0b85cb069d0e427ba946e5eb2d86ef65ffd19867042810516d16919f6c1a5aec",
+        "signature": "0b85cb069d0e427ba946e5eb2d86ef65ffd19867042810516d16919f6c1a5aec",
+        "affectsGlobalScope": false
+      },
+      "../../node_modules/@types/express/index.d.ts": {
+        "version": "15c88bfd1b8dc7231ff828ae8df5d955bae5ebca4cf2bcb417af5821e52299ae",
+        "signature": "15c88bfd1b8dc7231ff828ae8df5d955bae5ebca4cf2bcb417af5821e52299ae",
+        "affectsGlobalScope": false
+      },
       "../../node_modules/@types/minimatch/index.d.ts": {
         "version": "8841e2aa774b89bd23302dede20663306dc1b9902431ac64b24be8b8d0e3f649",
         "signature": "8841e2aa774b89bd23302dede20663306dc1b9902431ac64b24be8b8d0e3f649",
@@ -853,6 +893,28 @@
       "../../node_modules/@types/babel__traverse/index.d.ts": [
         "../../node_modules/@babel/types/lib/index.d.ts"
       ],
+      "../../node_modules/@types/body-parser/index.d.ts": [
+        "../../node_modules/@types/connect/index.d.ts",
+        "./node_modules/@types/node/http.d.ts",
+        "./node_modules/@types/node/index.d.ts"
+      ],
+      "../../node_modules/@types/connect/index.d.ts": [
+        "./node_modules/@types/node/http.d.ts",
+        "./node_modules/@types/node/index.d.ts"
+      ],
+      "../../node_modules/@types/express-serve-static-core/index.d.ts": [
+        "../../node_modules/@types/qs/index.d.ts",
+        "../../node_modules/@types/range-parser/index.d.ts",
+        "./node_modules/@types/node/events.d.ts",
+        "./node_modules/@types/node/http.d.ts",
+        "./node_modules/@types/node/index.d.ts"
+      ],
+      "../../node_modules/@types/express/index.d.ts": [
+        "../../node_modules/@types/body-parser/index.d.ts",
+        "../../node_modules/@types/express-serve-static-core/index.d.ts",
+        "../../node_modules/@types/qs/index.d.ts",
+        "../../node_modules/@types/serve-static/index.d.ts"
+      ],
       "../../node_modules/@types/glob/index.d.ts": [
         "../../node_modules/@types/minimatch/index.d.ts",
         "./node_modules/@types/node/events.d.ts",
@@ -898,6 +960,11 @@
         "../../node_modules/@types/react/global.d.ts",
         "../../node_modules/@types/scheduler/tracing.d.ts",
         "../../node_modules/csstype/index.d.ts"
+      ],
+      "../../node_modules/@types/serve-static/index.d.ts": [
+        "../../node_modules/@types/mime/index.d.ts",
+        "./node_modules/@types/node/http.d.ts",
+        "./node_modules/@types/node/index.d.ts"
       ],
       "../../node_modules/@types/testing-library__jest-dom/index.d.ts": [
         "../../node_modules/@types/jest/index.d.ts",
@@ -1223,6 +1290,28 @@
       "../../node_modules/@types/babel__traverse/index.d.ts": [
         "../../node_modules/@babel/types/lib/index.d.ts"
       ],
+      "../../node_modules/@types/body-parser/index.d.ts": [
+        "../../node_modules/@types/connect/index.d.ts",
+        "./node_modules/@types/node/http.d.ts",
+        "./node_modules/@types/node/index.d.ts"
+      ],
+      "../../node_modules/@types/connect/index.d.ts": [
+        "./node_modules/@types/node/http.d.ts",
+        "./node_modules/@types/node/index.d.ts"
+      ],
+      "../../node_modules/@types/express-serve-static-core/index.d.ts": [
+        "../../node_modules/@types/qs/index.d.ts",
+        "../../node_modules/@types/range-parser/index.d.ts",
+        "./node_modules/@types/node/events.d.ts",
+        "./node_modules/@types/node/http.d.ts",
+        "./node_modules/@types/node/index.d.ts"
+      ],
+      "../../node_modules/@types/express/index.d.ts": [
+        "../../node_modules/@types/body-parser/index.d.ts",
+        "../../node_modules/@types/express-serve-static-core/index.d.ts",
+        "../../node_modules/@types/qs/index.d.ts",
+        "../../node_modules/@types/serve-static/index.d.ts"
+      ],
       "../../node_modules/@types/glob/index.d.ts": [
         "../../node_modules/@types/minimatch/index.d.ts",
         "./node_modules/@types/node/events.d.ts",
@@ -1268,6 +1357,11 @@
         "../../node_modules/@types/react/global.d.ts",
         "../../node_modules/@types/scheduler/tracing.d.ts",
         "../../node_modules/csstype/index.d.ts"
+      ],
+      "../../node_modules/@types/serve-static/index.d.ts": [
+        "../../node_modules/@types/mime/index.d.ts",
+        "./node_modules/@types/node/http.d.ts",
+        "./node_modules/@types/node/index.d.ts"
       ],
       "../../node_modules/@types/testing-library__jest-dom/index.d.ts": [
         "../../node_modules/@types/jest/index.d.ts",
@@ -1535,6 +1629,10 @@
       "../../node_modules/@types/babel__generator/index.d.ts",
       "../../node_modules/@types/babel__template/index.d.ts",
       "../../node_modules/@types/babel__traverse/index.d.ts",
+      "../../node_modules/@types/body-parser/index.d.ts",
+      "../../node_modules/@types/connect/index.d.ts",
+      "../../node_modules/@types/express-serve-static-core/index.d.ts",
+      "../../node_modules/@types/express/index.d.ts",
       "../../node_modules/@types/glob/index.d.ts",
       "../../node_modules/@types/graceful-fs/index.d.ts",
       "../../node_modules/@types/istanbul-lib-coverage/index.d.ts",
@@ -1545,11 +1643,14 @@
       "../../node_modules/@types/jest/node_modules/jest-matcher-utils/build/index.d.ts",
       "../../node_modules/@types/jest/node_modules/pretty-format/build/index.d.ts",
       "../../node_modules/@types/json5/index.d.ts",
+      "../../node_modules/@types/mime/index.d.ts",
       "../../node_modules/@types/minimatch/index.d.ts",
       "../../node_modules/@types/minimist/index.d.ts",
       "../../node_modules/@types/normalize-package-data/index.d.ts",
       "../../node_modules/@types/prettier/index.d.ts",
       "../../node_modules/@types/prop-types/index.d.ts",
+      "../../node_modules/@types/qs/index.d.ts",
+      "../../node_modules/@types/range-parser/index.d.ts",
       "../../node_modules/@types/react-dom/client.d.ts",
       "../../node_modules/@types/react-dom/index.d.ts",
       "../../node_modules/@types/react-dom/test-utils/index.d.ts",
@@ -1557,6 +1658,7 @@
       "../../node_modules/@types/react/index.d.ts",
       "../../node_modules/@types/scheduler/index.d.ts",
       "../../node_modules/@types/scheduler/tracing.d.ts",
+      "../../node_modules/@types/serve-static/index.d.ts",
       "../../node_modules/@types/stack-utils/index.d.ts",
       "../../node_modules/@types/testing-library__jest-dom/index.d.ts",
       "../../node_modules/@types/testing-library__jest-dom/matchers.d.ts",
@@ -1948,6 +2050,22 @@
         1
       ],
       [
+        "../../node_modules/@types/body-parser/index.d.ts",
+        1
+      ],
+      [
+        "../../node_modules/@types/connect/index.d.ts",
+        1
+      ],
+      [
+        "../../node_modules/@types/express-serve-static-core/index.d.ts",
+        1
+      ],
+      [
+        "../../node_modules/@types/express/index.d.ts",
+        1
+      ],
+      [
         "../../node_modules/@types/glob/index.d.ts",
         1
       ],
@@ -1988,6 +2106,10 @@
         1
       ],
       [
+        "../../node_modules/@types/mime/index.d.ts",
+        1
+      ],
+      [
         "../../node_modules/@types/minimatch/index.d.ts",
         1
       ],
@@ -2005,6 +2127,14 @@
       ],
       [
         "../../node_modules/@types/prop-types/index.d.ts",
+        1
+      ],
+      [
+        "../../node_modules/@types/qs/index.d.ts",
+        1
+      ],
+      [
+        "../../node_modules/@types/range-parser/index.d.ts",
         1
       ],
       [
@@ -2033,6 +2163,10 @@
       ],
       [
         "../../node_modules/@types/scheduler/tracing.d.ts",
+        1
+      ],
+      [
+        "../../node_modules/@types/serve-static/index.d.ts",
         1
       ],
       [

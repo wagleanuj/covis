@@ -28,5 +28,5 @@
       "@covis/*": ["./packages/*"]
     }
   },
-  "exclude": ["*.config", "*.yaml"]
+  "exclude": ["*.config", "*.yaml", "dist"]
 }

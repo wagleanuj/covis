@@ -2,6 +2,7 @@
   "name": "@covis/app",
   "version": "2.1.0",
   "license": "MIT",
+  "main": "www/",
   "scripts": {
     "start": "concurrently --names tsc,esb -c green.bold,blue.bold --kill-others \"yarn:bundle --dev\" \"tsc --watch\" ",
     "build": "concurrently --success --names tsc,esb -c green.bold,blue.bold tsc yarn:bundle",
