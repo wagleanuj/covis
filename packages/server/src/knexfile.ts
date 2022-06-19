@@ -2,8 +2,9 @@ export default {
     development: {
         client: 'sqlite3',
         connection: {
-            filename: './dev.sqlite3'
-        }
+            filename: './db.test'
+        },
+        useNullAsDefault: true,
     },
     test: {
         client: 'sqlite3',

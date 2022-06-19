@@ -1,12 +1,14 @@
 import React from "react";
 import "./App.css";
+import { Explorer } from "./components/Explorer";
+import { AppProvider } from "./AppProvider";
 
-export default function App() {
+export function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        App is here
-      </header>
-    </div>
+    <AppProvider>
+      <div className="App" style={{ height: "100vh" }}>
+      <Explorer />
+      </div>
+    </AppProvider>
   );
 }

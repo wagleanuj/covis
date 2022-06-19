@@ -1,8 +1,8 @@
 {
     "watch": ["src"],
-    "ignore": ["src/**/*.test.ts", "dist/"],
+    "ignore": ["src/**/*.test.ts", "src/**/*.spec.ts", "dist/"],
     "ext": "ts,mjs,js,json",
-    "exec": "etsc src/index.ts && node ./dist/index.js",
+    "exec": "NODE_ENV=development etsc src/index.ts && node ./dist/src/index.js",
     "legacyWatch": true,
     "allowOverwrite": true
   }

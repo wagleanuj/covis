@@ -1,4 +1,21 @@
+@import "rsuite/dist/rsuite.css";
 .App {
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier,
+    monospace;
+
+  font-size: 12px;
+}
+.rs-tree-metrics-tree .rs-tree-node-label{
+  width: 100%;
+}
+.rs-tree-metrics-tree .rs-tree-node{
+  display: flex;
+  align-items: center;
+}
+.rs-tree-metrics-tree .rs-tree-node-label-content {
+  width: inherit;
+}
+.countries-select, .chart-select {
   text-align: center;
 }
 
